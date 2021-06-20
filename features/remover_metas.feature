@@ -28,3 +28,10 @@ Scenario: Falha ao remover metas
     And possui uma meta  ‘requisitos’
     When tento remover a meta 'requisitos'
     Then a meta continua na lista de metas
+
+Scenario: Remover metas com sucesso
+    Given Estou logado em 'admin'
+    And Estou na página de metas
+    And possui uma meta 'Desenvolvimento’
+    When Tento remover a meta 'Desenvolvimento'
+    Then A meta 'Desenvolvimento' nao aparece mais na lista de metas
