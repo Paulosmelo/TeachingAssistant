@@ -1,4 +1,4 @@
-Remove metas cadastradas
+Remove metas cadastradas:
 
 Scenario: Aviso de remover meta com avaliações
     Given Estou na página de metas
