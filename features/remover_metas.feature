@@ -1,4 +1,4 @@
-Remove metas cadastradas
+Remove metas cadastradas:
 
 Scenario: Aviso de remover meta com avaliações
     Given Estou na página de metas
@@ -35,4 +35,4 @@ Scenario: Remover metas com sucesso
     And Estou na página de metas.
     And possui algumas metas e uma meta 'Desenvolvimento’.
     When Tento remover a meta 'Desenvolvimento'
-    Then a meta 'Desenvolvimento' não aparece mais na lista
+    Then A meta 'Desenvolvimento' nao aparece mais na lista de metas.
