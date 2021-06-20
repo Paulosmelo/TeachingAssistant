@@ -34,5 +34,5 @@ Scenario: Remover metas com sucesso
     Given Estou logado em 'admin'.
     And Estou na página de metas.
     And possui algumas metas e uma meta 'Desenvolvimento’.
-    When Tento remover a meta 'Desenvolvimento'
+    When Tento remover a meta 'Desenvolvimento'.
     Then A meta 'Desenvolvimento' nao aparece mais na lista de metas.
