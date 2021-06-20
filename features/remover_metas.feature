@@ -34,4 +34,4 @@ Scenario: Remover metas com sucesso
     And Estou na página de metas
     And possui uma meta 'Desenvolvimento’
     When Tento remover a meta 'Desenvolvimento'
-    Then A meta 'Desenvolvimento' nao aparece mais na lista de metas
+    Then A meta 'Desenvolvimento' nao aparece mais na lista de metas.
