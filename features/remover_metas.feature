@@ -23,3 +23,8 @@ Scenario: Remover meta inválida
     When Tento remover uma meta pelo nome ‘design’
     Then O sistema retorna  um erro de meta não existente.
 
+Scenario: Falha ao remover metas
+    Given Estou na página de metas
+    And possui uma meta  ‘requisitos’
+    When tento remover a meta 'requisitos'
+    Then a meta continua na lista de metas
