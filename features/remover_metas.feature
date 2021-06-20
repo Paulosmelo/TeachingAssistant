@@ -19,8 +19,8 @@ Scenario: Remover única meta da turma
 	Then retorna um erro de única meta cadastrada
 
 Scenario: Remover meta inválida
-	Given Estou na página de metas
-    When Tento remover uma meta pelo nome ‘design’
+	Given Estou na página de metas.
+    When Tento remover uma meta pelo nome ‘design’.
     Then O sistema retorna  um erro de meta não existente.
 
 Scenario: Falha ao remover metas
