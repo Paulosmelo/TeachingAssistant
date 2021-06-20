@@ -26,5 +26,5 @@ Scenario: Remover meta inválida
 Scenario: Falha ao remover metas
     Given Estou na página de metas
     And possui uma meta  ‘requisitos’
-    When tento remover a meta 'requisitos'
-    Then a meta continua na lista de metas
+    Then a meta 'requisitos' continua na lista de metas
+    And a meta 'requisitos' ainda possui todas avaliações
